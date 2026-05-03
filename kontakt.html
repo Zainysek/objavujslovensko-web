@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Objavuj Slovensko</title>
+    <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Objavuj <span>Slovensko</span></a>
+        <div class="nav-links">
+            <a href="index.html">Domov</a>
+            <a href="regiony.html">Regióny</a>
+            <a href="atrakcie.html">Atrakcie</a>
+            <a href="galeria.html">Galéria</a>
+            <a href="kontakt.html" class="active">Kontakt</a>
+            <a href="data.html">Dáta</a>
+            <a href="onas.html">O nás</a>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Kontakt</h1>
+        <p>Napíšte nám</p>
+    </div>
+
+    <section class="section">
+        <div class="form-container">
+
+            <div class="form-success" id="uspech">Formulár bol odoslaný! Ďakujeme.</div>
+
+            <form id="formular" novalidate>
+
+                <div class="form-group" id="gMeno">
+                    <label for="meno">Meno *</label>
+                    <input type="text" id="meno" placeholder="Vaše meno">
+                    <div class="error-msg">Zadajte meno (min. 3 znaky).</div>
+                </div>
+
+                <div class="form-group" id="gEmail">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" placeholder="vas@email.sk">
+                    <div class="error-msg">Zadajte platný e-mail.</div>
+                </div>
+
+                <div class="form-group" id="gTema">
+                    <label for="tema">Téma *</label>
+                    <select id="tema">
+                        <option value="">-- Vyberte --</option>
+                        <option value="info">Informácie</option>
+                        <option value="spoluprace">Spolupráca</option>
+                        <option value="ine">Iné</option>
+                    </select>
+                    <div class="error-msg">Vyberte tému.</div>
+                </div>
+
+                <div class="form-group" id="gTyp">
+                    <label>Typ návštevníka *</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="typ" value="turist"> Turista</label>
+                        <label><input type="radio" name="typ" value="student"> Študent</label>
+                        <label><input type="radio" name="typ" value="iny"> Iný</label>
+                    </div>
+                    <div class="error-msg">Vyberte typ.</div>
+                </div>
+
+                <div class="form-group" id="gSprava">
+                    <label for="sprava">Správa *</label>
+                    <textarea id="sprava" rows="4" placeholder="Vaša správa..."></textarea>
+                    <div class="error-msg">Napíšte správu (min. 10 znakov).</div>
+                </div>
+
+                <div class="form-group" id="gSuhlas">
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" id="suhlas"> Súhlasím so spracovaním údajov *</label>
+                    </div>
+                    <div class="error-msg">Musíte súhlasiť.</div>
+                </div>
+
+                <button type="submit" class="btn">Odoslať</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <h4>Objavuj Slovensko</h4>
+                <p>Objav Slovensko v zdanlivo obyčajných momentoch</p>
+            </div>
+            <div>
+                <h4>Odkazy</h4>
+                <ul>
+                    <li><a href="index.html">Úvod</a></li>
+                    <li><a href="regiony.html">Regióny</a></li>
+                    <li><a href="galeria.html">Galéria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Objavuj Slovensko</div>
+    </footer>
+
+    <script src="js/kontakt.js"></script>
+</body>
+</html>

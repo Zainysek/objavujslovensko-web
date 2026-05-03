@@ -1,0 +1,117 @@
+{
+    "portál": "Objavuj Slovensko",
+    "verzia": "1.0",
+    "regióny": [
+        {
+            "nazov": "Západné Slovensko",
+            "kraje": [
+                {
+                    "nazov": "Bratislavský kraj",
+                    "hlavneMesto": "Bratislava",
+                    "obyvatelov": 669592,
+                    "pamiatky": [
+                        {
+                            "nazov": "Bratislavský hrad",
+                            "typ": "hrad",
+                            "unesco": false,
+                            "vstupne": 10
+                        },
+                        {
+                            "nazov": "Devín",
+                            "typ": "hrad",
+                            "unesco": false,
+                            "vstupne": 5
+                        }
+                    ]
+                },
+                {
+                    "nazov": "Trnavský kraj",
+                    "hlavneMesto": "Trnava",
+                    "obyvatelov": 564917,
+                    "pamiatky": [
+                        {
+                            "nazov": "Bazilika sv. Mikuláša",
+                            "typ": "kostol",
+                            "unesco": false,
+                            "vstupne": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nazov": "Stredné Slovensko",
+            "kraje": [
+                {
+                    "nazov": "Banskobystrický kraj",
+                    "hlavneMesto": "Banská Bystrica",
+                    "obyvatelov": 645276,
+                    "pamiatky": [
+                        {
+                            "nazov": "Banská Štiavnica",
+                            "typ": "mesto",
+                            "unesco": true,
+                            "vstupne": 0
+                        },
+                        {
+                            "nazov": "Vlkolínec",
+                            "typ": "dedina",
+                            "unesco": true,
+                            "vstupne": 2
+                        }
+                    ]
+                },
+                {
+                    "nazov": "Žilinský kraj",
+                    "hlavneMesto": "Žilina",
+                    "obyvatelov": 689868,
+                    "pamiatky": [
+                        {
+                            "nazov": "Demänovská jaskyňa",
+                            "typ": "jaskyňa",
+                            "unesco": false,
+                            "vstupne": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nazov": "Východné Slovensko",
+            "kraje": [
+                {
+                    "nazov": "Prešovský kraj",
+                    "hlavneMesto": "Prešov",
+                    "obyvatelov": 826244,
+                    "pamiatky": [
+                        {
+                            "nazov": "Spišský hrad",
+                            "typ": "hrad",
+                            "unesco": true,
+                            "vstupne": 8
+                        },
+                        {
+                            "nazov": "Drevené kostolíky",
+                            "typ": "kostol",
+                            "unesco": true,
+                            "vstupne": 3
+                        }
+                    ]
+                },
+                {
+                    "nazov": "Košický kraj",
+                    "hlavneMesto": "Košice",
+                    "obyvatelov": 801460,
+                    "pamiatky": [
+                        {
+                            "nazov": "Dóm sv. Alžbety",
+                            "typ": "kostol",
+                            "unesco": false,
+                            "vstupne": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

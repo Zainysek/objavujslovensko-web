@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galéria | Objavuj Slovensko</title>
+    <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Objavuj <span>Slovensko</span></a>
+        <div class="nav-links">
+            <a href="index.html">Domov</a>
+            <a href="regiony.html">Regióny</a>
+            <a href="atrakcie.html">Atrakcie</a>
+            <a href="galeria.html" class="active">Galéria</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="data.html">Dáta</a>
+            <a href="onas.html">O nás</a>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Galéria</h1>
+        <p>Fotky z najkrajších miest Slovenska</p>
+    </div>
+
+    <section class="section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="img/tatry-hero.png" alt="Vysoké Tatry">
+                <div class="caption">Vysoké Tatry</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/bratislava.png" alt="Bratislava">
+                <div class="caption">Bratislava</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/slovensky-raj.png" alt="Slovenský raj">
+                <div class="caption">Slovenský raj</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/spissky-hrad.png" alt="Spišský hrad">
+                <div class="caption">Spišský hrad</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/bojnice.png" alt="Bojnický zámok">
+                <div class="caption">Bojnický zámok</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/dreveny-kostol.png" alt="Drevený kostolík">
+                <div class="caption">Drevený kostolík</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/vlkolinec.png" alt="Vlkolínec">
+                <div class="caption">Vlkolínec</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/demanovska-jaskyna.png" alt="Demänovská jaskyňa">
+                <div class="caption">Demänovská jaskyňa</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/halusky.png" alt="Bryndzové halušky">
+                <div class="caption">Bryndzové halušky</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- lightbox pre zvacsenie fotiek -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lb-zatvorit">&times;</button>
+        <img src="" alt="" id="lbImg">
+        <div class="lightbox-caption" id="lbText"></div>
+        <div class="lightbox-nav">
+            <button id="lb-prev">&#10094; Predošlá</button>
+            <button id="lb-next">Ďalšia &#10095;</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <h4>Objavuj Slovensko</h4>
+                <p>Objav Slovensko v zdanlivo obyčajných momentoch</p>
+            </div>
+            <div>
+                <h4>Odkazy</h4>
+                <ul>
+                    <li><a href="index.html">Úvod</a></li>
+                    <li><a href="regiony.html">Regióny</a></li>
+                    <li><a href="galeria.html">Galéria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Objavuj Slovensko</div>
+    </footer>
+
+    <script src="js/galeria.js"></script>
+</body>
+</html>

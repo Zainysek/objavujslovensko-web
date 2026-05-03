@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dáta | Objavuj Slovensko</title>
+    <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Objavuj <span>Slovensko</span></a>
+        <div class="nav-links">
+            <a href="index.html">Domov</a>
+            <a href="regiony.html">Regióny</a>
+            <a href="atrakcie.html">Atrakcie</a>
+            <a href="galeria.html">Galéria</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="data.html" class="active">Dáta</a>
+            <a href="onas.html">O nás</a>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Dáta</h1>
+        <p>Prehľadný zoznam pamiatok</p>
+    </div>
+
+    <section class="section">
+        <div class="data-table-container">
+            <h2 class="section-title">Pamiatky Slovenska</h2>
+            <p class="section-subtitle">Zoznam kultúrnych a prírodných pamiatok</p>
+
+            <div class="loading-spinner" id="loading">Načítavam...</div>
+
+            <table class="data-table skryta" id="tabulka">
+                <thead>
+                    <tr>
+                        <th>Región</th>
+                        <th>Kraj</th>
+                        <th>Pamiatka</th>
+                        <th>Typ</th>
+                        <th>UNESCO</th>
+                        <th>Vstupné</th>
+                    </tr>
+                </thead>
+                <tbody id="telo"></tbody>
+            </table>
+
+            <p id="chyba" class="chyba-text skryta">Chyba pri načítavaní.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <h4>Objavuj Slovensko</h4>
+                <p>Objav Slovensko v zdanlivo obyčajných momentoch</p>
+            </div>
+            <div>
+                <h4>Odkazy</h4>
+                <ul>
+                    <li><a href="index.html">Úvod</a></li>
+                    <li><a href="regiony.html">Regióny</a></li>
+                    <li><a href="galeria.html">Galéria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Objavuj Slovensko</div>
+    </footer>
+
+    <script src="js/data-script.js"></script>
+</body>
+</html>
