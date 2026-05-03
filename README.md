@@ -6,15 +6,6 @@ Webový portál o Slovensku - školský projekt pre predmet na PEVŠ.
 
 Stránka prezentuje regióny, atrakcie a galériu fotografií zo Slovenska. Obsahuje kontaktný formulár s validáciou a zobrazenie dát cez AJAX.
 
-## Ako spustiť
-
-1. Stiahnite repozitár: `git clone <URL>`
-2. Otvorte `index.html` v prehliadači
-
-Pre AJAX (stránka Dáta) treba HTTP server:
-- VS Code - nainštalujte rozšírenie **Live Server**, pravý klik na index.html -> Open with Live Server
-- alebo cez Python: `python -m http.server 8000` a potom otvorte `localhost:8000`
-
 ## Štruktúra
 
 ```
@@ -34,7 +25,7 @@ Web/
 
 ## Technológie
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - JSON + AJAX (XMLHttpRequest)
